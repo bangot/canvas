@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" height="100 px" width="200 px" style="border:1px solid #d3d3d3"></canvas>
+<script>
+   
+
+
+
+    let b = document.getElementById('myCanvas');
+    let ctx=b.getContext('2d');
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+
+</script>
+</body>
+</html>
